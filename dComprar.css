@@ -1,0 +1,771 @@
+body 	{
+	background-color: #F2F2F2;
+}
+
+#Base 	{
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #FFFFFF;
+	width: 1024px;
+	height: 2180px;
+	margin: auto;
+}
+
+#Menu 	{
+	box-shadow: 0 0 1em 0em #ff7f00;
+	margin-top: -0.6%;
+	position: fixed;
+	background-color: #ff7f00;
+	width: 1024px;
+	height: 60px;
+	border-bottom-right-radius: 1.5em;
+	border-bottom-left-radius: 1.5em;
+	z-index: 3;
+}
+
+.Head 	{
+	font-family: arial;
+	font-size: 1em;
+	margin-top: 0px;
+	color: #ffffff;
+	width: 256px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+#Empresas li 	{
+	margin-left: 37px;
+	padding-top: 1px;	
+	padding-bottom: 5px;
+}
+
+#Empresas li a 	{
+	color: #ffffff;
+}
+
+#Empresas 	{	
+	box-shadow: 0 0 1em 0em #ff7f00;
+	border-top: 3px solid #ffffff;
+	visibility: hidden;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	list-style: none;
+	width: 256px;
+	margin-top: 0px;
+	background-color: #ff7f00;
+	padding: 0px;
+	position: absolute;
+	height: 0px;
+	font-size: 0em;
+}
+
+.Head:hover > #Empresas {
+	visibility: visible;
+	height: 285px;
+	font-size: 1em;
+	-webkit-transition: .5s;
+}
+
+#Igual:hover 	{
+	background-color: #FF931E;
+}
+
+#Diferente:hover 	{
+	background-color: #FF931E;
+	border-bottom-right-radius: 1.5em;
+}
+
+#Igual 	{
+	background-color: #ff7f00;
+	width: 256px;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 60px;
+}
+
+#Diferente 	{
+	border-bottom-right-radius: 1.5em;
+	background-color: #ff7f00;
+	width: 256px;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 60px;
+}
+
+li a p:hover	{
+	color: #B3B3B3;
+}
+
+#Logo {
+	text-align: center;
+}
+
+div img 	{
+	margin-top: 210px;
+	width: 613px;
+	height: 106px;
+}
+
+#Buscador	{
+	padding-top: 37px;
+	width: 1024px;
+	margin:auto;
+}
+
+input	{
+	width: 720px;
+	height: 55px;
+	border-radius: 1em;
+	border: 1px solid #ff7f00;
+	text-align: center;
+	margin-left: 140px;
+	font-size: 2em;
+}
+
+#Buscar {
+	background-color: #ffffff;
+	width: 31px;
+	height: 31px;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 12px;
+	display: inline-block;
+	border: 0px solid
+}	
+
+#Buscar img 	{
+	position: relative;
+	width: 31px;
+	height: 31px;
+	display: block;
+	margin-left: -6px;
+	margin-top: -1px;	
+}
+
+#Comercios	{
+	float: left;
+	margin-top: 120px;
+	width: 1024px;
+	text-align: center;
+	font-family: sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+h2	{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Myriad Pro;
+	width: 512px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 2em;
+	border-bottom: 2px dashed #000000;
+	margin-left: 256px;
+}	
+
+div div div img {
+	position: absolute;
+	display: block;
+	margin-left: 33px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	width: 234px;
+	height: 218px;
+	overflow: hidden;
+}
+
+.Baner {
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	position: absolute;
+	display: block;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	width: 300px;
+	height: 0px;
+}
+
+.Empresas:hover .Baner 	{
+	height: 250px;
+	-webkit-transition: .6s;
+}
+
+.Empresas	{
+	margin-right: 9px;
+	margin-left: 9px;
+	border: 1px solid #B3B3B3;
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#Numero1	{
+	
+}
+
+#Numero2	{
+	
+}
+
+#Numero3	{
+	
+}
+
+#Numero4	{
+	
+}
+
+#Numero5	{
+	
+}
+
+#Numero6	{
+	
+}
+
+
+#Pie1 {
+	text-align: center;
+	display: block;
+}
+
+.Nombrecito {
+	font-family: arial;
+	font-size: 1.5em;
+	margin-top: 0px;
+}
+
+#form {
+	width : 250px;
+	margin : 0 auto;
+	height : 50px;
+}
+#form p {
+	text-align : center;
+}
+#form label {
+ 	font-size : 20px;
+}
+input[type = "radio"] {
+	display : none;
+}
+label {
+	color: #B3B3B3;
+	font-size: 22px;
+	margin-right: 21px;
+}
+.clasificacion {
+	margin-top: 12px;
+	direction : rtl;
+	unicode-bidi : bidi-override;
+}
+label:hover, label:hover ~ label {
+	color : #00FF00;
+}
+input[type = "radio"]:checked ~ label {
+	color : #00FF00;
+}
+
+.PieComer 	{
+	margin-right: 9px;
+	margin-left: 9px;
+	border: 1px solid #B3B3B3;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	padding-top: 0px;
+	margin-top: -5px;
+}
+
+#Productos	{
+	margin-top: 60px;
+	width: 1024px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+.Ban2 {
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	position: absolute;
+	display: block;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	width: 300px;
+	height: 0px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Empresas:hover .Ban2 	{
+	height: 200px;
+	-webkit-transition: .6s;
+	border-bottom:1px solid #B3B3B3;
+}
+
+.Ban2:hover .Vermas	{
+	font-size: 1em;
+	-webkit-transition: .7s;
+	visibility: visible;
+}
+
+.Ban2:hover .Papapsc 	{
+	visibility: visible;
+	height: 175px;
+	-webkit-transition: .6s;
+}	
+
+.Ban2:hover > .Precio 	{
+	visibility: visible;
+	-webkit-transition: .6s;
+}	
+
+.Papapsc 	{
+	margin-bottom: 1%;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	text-align: center;
+	width: 100px;
+	height: 0px;
+	display: inline-block;
+	float: left;
+	visibility: hidden;
+	position: relative;
+}
+
+.Precio 	{
+	height: 30px;
+	width: 30px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 0%;
+	float: left;
+	position: relative;
+	margin-top: 10%;
+	padding-bottom: 0%;
+}
+
+.Precio1 {
+	width: 40px;
+	height: 40px;
+	margin-left: 32%;
+	position: relative;
+	margin-top: 7%;
+}
+
+.Textoprecio1 	{
+	position: absolute;
+	width: 87px;
+	height: 10px;
+	margin-top: -30%;
+	margin-left: 120%;
+}
+
+.Precio2 {
+	width: 40px;
+	height: 40px;
+	margin-left: 32%;
+	position: relative;
+	margin-top: 3%;
+}
+
+.Textoprecio2 	{
+	position: absolute;
+	width: 87px;
+	height: 10px;
+	margin-top: -30%;
+	margin-left: 120%;
+}
+
+.Precio3 {
+	width: 40px;
+	height: 40px;
+	margin-left: 32%;
+	position: relative;
+	margin-top: 3%;
+}
+
+.Textoprecio3 	{
+	position: absolute;
+	width: 87px;
+	height: 10px;
+	margin-top: -30%;
+	margin-left: 120%;
+}
+
+.Noverprecios {
+	visibility: hidden;
+}
+
+.Verprecios:hover > .Noverprecios 	{
+	visibility: visible;
+	-webkit-transition: .6s;
+}
+
+.Servicio 	{
+	height: 28px;
+	width: 30px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 0%;
+	float: left;
+	position: relative;
+	margin-top: 12%;
+	padding-bottom: 0%;
+}
+
+.Servicio1	{	
+	width: 40px;
+	height: 40px;
+	margin-left: -68%;
+	position: relative;
+	margin-top: 7%;
+}
+
+.Textoservicio1	{
+	width: 118px;
+	height: 10px;
+	font-size: 22px;
+	color: #00FF00;
+	float: left;
+	margin-top: -37%;
+	margin-left: 8%;
+}
+
+.Servicio2	{
+	width: 40px;
+	height: 40px;
+	margin-left: -68%;
+	position: relative;
+	margin-top: 3%;
+}
+
+.Textoservicio2	{
+	width: 118px;
+	height: 10px;
+	font-size: 22px;
+	color: #00FF00;
+	float: left;
+	margin-top: -37%;
+	margin-left: 8%;	
+}
+
+.Servicio3	{	
+	width: 40px;
+	height: 40px;
+	margin-left: -68%;
+	position: relative;
+	margin-top: 3%;
+}
+
+.Textoservicio3	{
+	width: 118px;
+	height: 10px;
+	font-size: 22px;
+	color: #00FF00;
+	float: left;
+	margin-top: -37%;
+	margin-left: 8%;
+}
+
+.Noverservicio {
+	visibility: hidden;
+}
+
+.Verservicio:hover > .Noverservicio 	{
+	visibility: visible;
+	-webkit-transition: .6s;
+}
+
+.Calidad 	{
+	height: 30px;
+	width: 20px;
+	padding-left: 39px;
+	padding-right: 41px;
+	margin-left: 0%;
+	float: left;
+	position: relative;
+	margin-top: 10%;
+	padding-bottom: 0%;
+}
+
+.Calidad1	{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: -168%;
+	position: relative;
+	margin-top: 7%;
+}
+
+.Textocalidad1	{
+	position: absolute;
+	width: 118px;
+	height: 10px;
+	font-size: 22px;
+	color: #00FF00;
+	margin-top: -37%;
+	margin-left: -92%;
+}
+
+.Calidad2	{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: -168%;
+	position: relative;
+	margin-top: 3%;
+}
+
+.Textocalidad2	{
+	position: absolute;
+	width: 118px;
+	height: 10px;
+	font-size: 22px;
+	color: #00FF00;
+	margin-top: -37%;
+	margin-left: -92%;	
+}
+
+.Calidad3	{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: -168%;
+	position: relative;
+	margin-top: 3%;
+}
+
+.Textocalidad3	{
+	position: absolute;
+	width: 118px;
+	height: 10px;
+	font-size: 22px;
+	color: #00FF00;
+	margin-top: -37%;
+	margin-left: -92%;
+}
+
+span {
+	color: #000000;
+}
+
+.Novercalidad {
+	visibility: hidden;
+}
+
+.Vercalidad:hover > .Novercalidad 	{
+	visibility: visible;
+	-webkit-transition: .6s;
+}	
+
+.Vermas {
+	color: #00000A;
+	visibility: hidden;
+	position: relative;
+	font-size: 0em;
+}
+
+.Banerbig 	{
+	border-bottom-right-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	width: 0px;
+	height: 351px;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	float: left;
+	display: block;
+	margin-top: -120.5%;
+	margin-left: 50%;
+}
+
+.PieComer:hover .Banerbig 	{
+	width: 300px;
+	border-right: 1px solid #b3b3b3;
+	border-top: 1px solid #b3b3b3;
+	border-bottom: 1px solid #b3b3b3;	
+	-webkit-transition: .6s;
+}
+
+.PieComer:hover .Textoestrellas 	{
+	font-size: 1.5em;
+	-webkit-transition: .6s;
+	visibility: visible;
+}
+
+.PieComer:hover .PrecioG 	{
+	width: 45px;
+	-webkit-transition: .6s;
+}
+
+.PieComer:hover .ServicioG	{
+	width: 45px;
+	-webkit-transition: .6s;
+}
+
+.PieComer:hover .CalidadG	{
+	width: 35px;
+	visibility: visible;
+	-webkit-transition: .6s;
+}
+
+.PrecioG 	{
+	overflow: hidden;
+	margin-top: -2.5%;
+	margin-left: 21%;
+	width: 0px;
+	height: 45px;
+}
+
+.ServicioG 	{
+	overflow: hidden;
+	margin-top: -2.5%;
+	margin-left: 21%;
+	width: 0px;
+	height: 43px;
+}
+
+.CalidadG 	{
+	overflow: hidden;
+	margin-top: -2.5%;
+	margin-left: 21%;
+	width: 0px;
+	height: 45px;
+}
+
+.Estrella5 	{
+	overflow: hidden;
+	margin-left: 21%;
+	font-size: 22px;
+	color: #00FF00;
+}
+
+.Textoestrellas 	{
+	overflow: hidden;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 0em;
+}
+
+.Descripcion 	{
+	background-color: #000000;
+	visibility: hidden;
+	width: 300px;
+	height: 0px;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	position: absolute;
+	display: block;
+	margin-top: -8.7%;
+}
+
+.Descripcion p 	{
+	color: #ffffff;
+	font-size: 0em;
+	font-family: arial;
+	position: relative;
+	display: block;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+.PieComer:hover .Descripcion 	{
+	visibility: visible;
+	height: 100px;
+	font-size: 1em;
+	-webkit-transition: .5s;
+}
+
+.PieComer:hover .Descripcion p 	{
+	font-size: 1em;
+	-webkit-transition: .6s;
+}
+
+.Imagenservicios 	{
+	width: 300px;
+	height: 250px;
+	margin-top: 0%;
+	margin-left: 0%;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+
+.Textoprecio4	{
+	width: 118px;
+	height: 10px;
+	font-size: 22px;
+	color: #00FF00;
+	float: left;
+	position: absolute;
+	margin-top: -37%;
+	margin-left: 108%;	
+}
+
+.Mapa 	{
+	color: #ffffff;
+	background-color: #ff7f00;
+	margin-top: 13%;
+	text-align: left;
+	float: left;
+	width: 341.3px;
+	font-family: arial;
+	font-size: 0.8em;
+	border-bottom: 1px solid #B3B3B3;
+}
+
+.Mapa ul 	{
+	list-style: none;
+	padding: 0%;
+	text-align: left;
+	margin-left: 12%;
+	margin-top: -2%;
+}
+
+.Mapa ul li a	{
+	color: #ffffff;
+}
+
+.Mapa p	{
+	text-align: left;
+	margin-left: 12%;
+	font-weight: bold;
+}
+
+#Derechos  	{
+	color: #999999;
+	clear: both;
+	background-color: #E6E6E6;
+	text-align: center;
+	height: 43px;
+	line-height: 43px;
+	vertical-align: middle;
+	border-left: 1px solid #B3B3B3;
+	border-right: 1px solid #B3B3B3;
+}

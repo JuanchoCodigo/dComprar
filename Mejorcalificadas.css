@@ -1,0 +1,429 @@
+body 	{
+	background-color: #F2F2F2;
+}
+
+#Base 	{
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #FFFFFF;
+	width: 1024px;
+	height: 2070px;
+	margin: auto;
+}
+
+#Menu 	{
+	box-shadow: 0 0 1em 0em #ff7f00;
+	margin-top: -0.6%;
+	position: fixed;
+	background-color: #ff7f00;
+	width: 1024px;
+	height: 60px;
+	border-bottom-right-radius: 1.5em;
+	border-bottom-left-radius: 1.5em;
+	z-index: 3;
+}
+
+.Heall 	{
+	font-family: arial;
+	font-size: 1em;
+	margin-top: 0px;
+	color: #ffffff;
+	height: 60px;
+	display: inline-block;
+	float: left;
+}
+
+#Head1	{
+	width: 320px;
+}
+
+#Logoblanco 	{
+	margin-left: 35px;
+	margin-top: 9px;
+	width: 249px;
+	height: 42px;
+}
+
+#Head2	{
+	width: 384px;
+}
+
+#Buscador	{
+	padding-top: 12px;
+	width: 384px;
+	margin:auto;
+}
+
+input	{
+	width: 330px;
+	height: 34px;
+	border-radius: 0.5em;
+	border: 1px solid #B3B3B3;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 1em;
+}
+
+#Buscar {
+	background-color: #ff7f00;
+	width: 31px;
+	height: 31px;
+	position: absolute;
+	margin-left: 9px;
+	margin-top: 3px;
+	display: inline-block;
+	border: 0px solid
+}	
+
+#Buscar img 	{
+	position: relative;
+	width: 31px;
+	height: 31px;
+	display: block;
+	margin-left: -6px;
+	margin-top: -1px;	
+}
+
+#Head3	{
+	width: 192px;
+}
+
+#Head4	{
+	width: 128px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#Empresas li 	{
+	margin-left: 37px;
+	padding-top: 1px;	
+	padding-bottom: 5px;
+}
+
+#Empresas li a 	{
+	color: #ffffff;
+}
+
+#Empresas 	{	
+	box-shadow: 0 0 1em 0em #ff7f00;
+	border-top: 3px solid #ffffff;
+	visibility: hidden;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	list-style: none;
+	width: 192px;
+	margin-top: 0px;
+	background-color: #ff7f00;
+	padding: 0px;
+	position: absolute;
+	height: 0px;
+	font-size: 0em;
+}
+
+.Heall:hover > #Empresas {
+	visibility: visible;
+	height: 285px;
+	font-size: 1em;
+	-webkit-transition: .5s;
+}
+
+#Igual:hover 	{
+	background-color: #FF931E;
+}
+
+#Diferente:hover 	{
+	background-color: #FF931E;
+	border-bottom-right-radius: 1.5em;
+}
+
+#Igual 	{
+	background-color: #ff7f00;
+	width: 192px;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 60px;
+}
+
+#Diferente 	{
+	border-bottom-right-radius: 1.5em;
+	background-color: #ff7f00;
+	width: 128px;
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 60px;
+}
+
+li a p:hover	{
+	color: #B3B3B3;
+}
+
+#Comercios	{
+	float: left;
+	margin-top: 37px;
+	width: 1024px;
+	text-align: center;
+	font-family: sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+div div div img {
+	position: absolute;
+	display: block;
+	margin-left: 33px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	width: 234px;
+	height: 218px;
+	overflow: hidden;
+}
+
+#BanTop 	{
+	width: 1024px;
+	height: 384px;
+	margin-top: 0px;
+}
+
+.Baner {
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	position: absolute;
+	display: block;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	width: 300px;
+	height: 0px;
+}
+
+.Empresas:hover .Baner 	{
+	height: 250px;
+	-webkit-transition: .6s;
+}
+
+.Empresas	{
+	margin-right: 9px;
+	margin-left: 9px;
+	border: 1px solid #B3B3B3;
+	display: inline-block;
+	width: 300px;
+	height: 250px;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#Numero1	{
+	
+}
+
+#Numero2	{
+	
+}
+
+#Numero3	{
+	
+}
+
+#Numero4	{
+	
+}
+
+#Numero5	{
+	
+}
+
+#Numero6	{
+	
+}
+
+
+#Pie1 {
+	text-align: center;
+	display: block;
+}
+
+.Nombrecito {
+	font-family: arial;
+	font-size: 1.5em;
+	margin-top: 0px;
+}
+
+#form {
+	width : 250px;
+	margin : 0 auto;
+	height : 50px;
+}
+#form p {
+	text-align : center;
+}
+#form label {
+ 	font-size : 20px;
+}
+input[type = "radio"] {
+	display : none;
+}
+label {
+	color: #B3B3B3;
+	font-size: 22px;
+	margin-right: 21px;
+}
+.clasificacion {
+	margin-top: 12px;
+	direction : rtl;
+	unicode-bidi : bidi-override;
+}
+label:hover, label:hover ~ label {
+	color : #00FF00;
+}
+input[type = "radio"]:checked ~ label {
+	color : #00FF00;
+}
+
+.PieComer 	{
+	margin-right: 9px;
+	margin-left: 9px;
+	border: 1px solid #B3B3B3;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	padding-top: 0px;
+	margin-top: -5px;
+}
+
+.Banerbig 	{
+	border-bottom-right-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	width: 0px;
+	height: 351px;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	float: left;
+	display: block;
+	margin-top: -120.5%;
+	margin-left: 50%;
+}
+
+.PieComer:hover .Banerbig 	{
+	width: 300px;
+	border-right: 1px solid #b3b3b3;
+	border-top: 1px solid #b3b3b3;
+	border-bottom: 1px solid #b3b3b3;	
+	-webkit-transition: .6s;
+}
+
+.PieComer:hover .Textoestrellas 	{
+	font-size: 1.5em;
+	-webkit-transition: .6s;
+	visibility: visible;
+}
+
+.PieComer:hover .PrecioG 	{
+	width: 45px;
+	-webkit-transition: .6s;
+}
+
+.PieComer:hover .ServicioG	{
+	width: 45px;
+	-webkit-transition: .6s;
+}
+
+.PieComer:hover .CalidadG	{
+	width: 35px;
+	visibility: visible;
+	-webkit-transition: .6s;
+}
+
+.PrecioG 	{
+	overflow: hidden;
+	margin-top: -2.5%;
+	margin-left: 21%;
+	width: 0px;
+	height: 45px;
+}
+
+.ServicioG 	{
+	overflow: hidden;
+	margin-top: -2.5%;
+	margin-left: 21%;
+	width: 0px;
+	height: 43px;
+}
+
+.CalidadG 	{
+	overflow: hidden;
+	margin-top: -2.5%;
+	margin-left: 21%;
+	width: 0px;
+	height: 45px;
+}
+
+.Estrella5 	{
+	overflow: hidden;
+	margin-left: 21%;
+	font-size: 22px;
+	color: #00FF00;
+}
+
+.Textoestrellas 	{
+	overflow: hidden;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 0em;
+}
+.Mapa 	{
+	color: #ffffff;
+	background-color: #ff7f00;
+	margin-top: 10%;
+	text-align: left;
+	float: left;
+	width: 341.3px;
+	font-family: arial;
+	font-size: 0.8em;
+	border-bottom: 1px solid #B3B3B3;
+}
+
+.Mapa ul 	{
+	list-style: none;
+	padding: 0%;
+	text-align: left;
+	margin-left: 12%;
+	margin-top: -2%;
+}
+
+.Mapa ul li a	{
+	color: #ffffff;
+}
+
+.Mapa p	{
+	text-align: left;
+	margin-left: 12%;
+	font-weight: bold;
+}
+
+#Derechos  	{
+	color: #999999;
+	clear: both;
+	background-color: #E6E6E6;
+	text-align: center;
+	height: 43px;
+	line-height: 43px;
+	vertical-align: middle;
+	border-left: 1px solid #B3B3B3;
+	border-right: 1px solid #B3B3B3;
+}
